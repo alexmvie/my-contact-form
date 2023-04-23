@@ -1,2 +1,14 @@
 .root {
 }
+.c-input {
+  margin: 0em;
+  padding: 0.6em 0.8em;
+  border: 1px solid #b3b2b2;
+  border-radius: 0.2em;
+  &:focus {
+    border: 1px solid #4883c4;
+    outline: unset;
+    background-color: #f2f9ff;
+    box-shadow: 0 0 9px -2px #3f90af;
+  }
+}
